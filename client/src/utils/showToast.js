@@ -1,0 +1,7 @@
+export default function (text = '请求失败', icon = 'none', duration = 1500) {
+    uni.showToast({
+        title: text,
+        icon,
+        duration
+    })
+}

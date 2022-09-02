@@ -1,0 +1,180 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index"
+        },
+        {
+            "path": "pages/record/record"
+        },
+        {
+            "path": "pages/listen-smell/listen-smell"
+        },
+        {
+            "path": "pages/me/me"
+        }
+    ],
+    "subPackages": [
+        {
+            "root": "sub-package/home",
+            "pages": [
+                {
+                    "path": "search/search"
+                },
+                {
+                    "path": "food-detail/food-detail"
+                },
+                {
+                    "path": "answer/answer"
+                },
+                {
+                    "path": "evaluation/evaluation"
+                },
+                {
+                    "path": "information/information"
+                },
+                {
+                    "path": "classification/classification"
+                },
+                {
+                    "path": "hot-spot/hot-spot"
+                }
+            ]
+        },
+        {
+            "root": "sub-package/me/info-change",
+            "pages": [
+                {
+                    "path": "main/main"
+                }
+            ]
+        },
+        {
+            "root": "sub-package/me/info-manage",
+            "pages": [
+                {
+                    "path": "release/release",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "onReachBottomDistance": 50
+                    }
+                },
+                {
+                    "path": "confirm/confirm",
+                    "style": {
+                        "enablePullDownRefresh": true,
+                        "onReachBottomDistance": 50
+                    }
+                }
+            ]
+        },
+        {
+            "root": "sub-package/me/feedback",
+            "pages": [
+                {
+                    "path": "index/index"
+                }
+            ]
+        },
+        {
+            "root": "sub-package/sleep-music",
+            "pages": [
+                {
+                    "path": "index/index"
+                },
+                {
+                    "path": "release/release"
+                }
+            ]
+        },
+        {
+            "root": "sub-package/diet-recipe",
+            "pages": [
+                {
+                    "path": "index/index"
+                },
+                {
+                    "path": "release/release"
+                }
+            ]
+        },
+        {
+            "root": "sub-package/record/recipe",
+            "pages": [
+                {
+                    "path": "index/index"
+                },
+                {
+                    "path": "add-record/add-record"
+                },
+                {
+                    "path": "detail/detail"
+                },
+                {
+                    "path": "choose/choose"
+                },
+                {
+                    "path": "journal/journal"
+                },
+                {
+                    "path": "analyze/analyze"
+                }
+            ]
+        },
+        {
+            "root": "sub-package/record/sleep",
+            "pages": [
+                {
+                    "path": "index/index"
+                },
+                {
+                    "path": "short-term/short-term",
+                    "style": {
+                        "navigationBarTextStyle": "white"
+                    }
+                },
+                {
+                    "path": "sleeping/sleeping",
+                    "style": {
+                        "navigationBarTextStyle": "white"
+                    }
+                }
+            ]
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "color": "#A9A9A9",
+        "selectedColor": "#0D7377",
+        "backgroundColor": "#FAFAFA",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "首页",
+                "iconPath": "static/icon/tabbar/home.png",
+                "selectedIconPath": "static/icon/tabbar/home-active.png",
+                "pagePath": "pages/index/index"
+            },
+            {
+                "text": "记录",
+                "iconPath": "static/icon/tabbar/record.png",
+                "selectedIconPath": "static/icon/tabbar/record-active.png",
+                "pagePath": "pages/record/record"
+            },
+            {
+                "text": "听闻",
+                "iconPath": "static/icon/tabbar/listen-smell.png",
+                "selectedIconPath": "static/icon/tabbar/listen-smell-active.png",
+                "pagePath": "pages/listen-smell/listen-smell"
+            },
+            {
+                "text": "我",
+                "iconPath": "static/icon/tabbar/me.png",
+                "selectedIconPath": "static/icon/tabbar/me-active.png",
+                "pagePath": "pages/me/me"
+            }
+        ]
+    }
+}
